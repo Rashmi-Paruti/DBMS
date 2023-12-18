@@ -108,7 +108,7 @@ Jan 2023 to Jun 2023. */
 
 select CARD_NO 
 from book_lending 
-where DATE_OUT between '01-JAN-17' and '01-JUL-17' 
+where DATE_OUT between '01-JAN-23' and '01-JUL-23' 
 group by(CARD_NO) 
 having count(CARD_NO)>3 ;
 
